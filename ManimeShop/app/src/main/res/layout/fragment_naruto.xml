@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    tools:context=".NarutoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/comprar3"
+        android:layout_width="162dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-22dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="147dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:background="#FF2C2C"
+        android:text="Comprar"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/regresar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#FF2C2C"
+        android:text="Regresar"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="137dp"
+        android:layout_height="257dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="27dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/narutoresolution" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Sinopsis: El anime sigue el argumento introducido en el manga, con sólo algunas modificaciones menores como la disminución de la violencia y la extensión de ciertos contenidos que en el manga sólo son mencionados.Al igual que los volúmenes compilatorios del manga, la serie anime cuenta con dos partes. La primera con 220 episodios llamado «Naruto» se inició el 3 de octubre de 2002,122​ y la segunda con 500 episodios llamada «Naruto: Shippūden», que comenzó a transmitirse el 15 de febrero de 2007 y finalizó el 23 de marzo de 2017."
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="177dp"
+        android:text="Precio: $500"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

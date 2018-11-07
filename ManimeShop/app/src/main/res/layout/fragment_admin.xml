@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C3C3C"
+    tools:context=".adminFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descripcion"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="textPersonName|number"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <EditText
+        android:id="@+id/descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+
+        android:layout_below="@+id/nombre"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+
+        android:layout_below="@+id/precio"
+        android:src="@drawable/ic_menu_camera" />
+
+    <Button
+        android:id="@+id/agregar"
+        android:layout_width="226dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/imagen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:background="#FF2C2C"
+        android:text="AGREGAR"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="226dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF2C2C"
+        android:text="regresar"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>
